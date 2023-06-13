@@ -131,15 +131,20 @@ object-fit: cover;
     padding: 3%;
 }
 
-.suits-elements{
+
+/* Suits */
+.spiderman-talking{
+    height: 200px;
+}
+.suits-url{
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     gap:2%;
-}
-
-.spiderman-talking{
-    height: 100px;
+    font-size: x-large;
+    color: black;
+    padding-bottom: 2%;
 }
 
   /* Footer */
@@ -148,3 +153,21 @@ object-fit: cover;
     background-color: black;
     color: white;;
   }
+
+.footer-elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.icons-container {
+    display: flex;
+}
+
+.icons-container a{
+    color: white;
+    padding-left: 20%;
+    padding-right: 10%;
+}
